@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p {
+    background-color: #DDE0E3;    /* Light gray */
+}
+  
+em, strong {
+    background-color: #B2D6FF;    /* Light blue */
+    display: inline;
+}
+
+h1 {
+    padding: 50px;
+    /* border: 1px solid #5D6063 */
+    border-bottom: 1px solid #5D6063;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* Alternatively,
+    padding: 20px 10px;         Vertical Horizontal */
+    /* You can also set the padding for each side of an element individually by providing four values
+       The values are interpreted clockwise, starting at the top.
+    padding: 20px 0 20px 10px;  Top Right Bottom Left */
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+strong {
+    /* This isn't recommended, if you want to play with the page's layout, it is recommended to look at block-level elements instead */
+    padding: 50px;
+    /* margin: 50px; */
+}
+
+div {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+
+    width: 200px;
+    box-sizing: border-box;     /* This forces the box to be exactly 200px, including the content */
+    margin: 20px auto;          /* Vertical Horizontal */
+}
+
+body {
+    /* Block-level alignment is completely unrelated to the "text-align" property */
+    text-align: center;
+}
